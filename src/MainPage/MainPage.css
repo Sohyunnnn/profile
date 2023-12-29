@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .Main {
+    background-color: aliceblue;
+    height: 110vh;
+  }
+  
+  .personalContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .personalContainer img {
+    margin-right: 250px;
+  }
+  
+  .contact {
+    margin-top: 60px;
+  }
+  
+  .devExp {
+    margin-left: 50px;
+  }
+  
+  .dev {
+    margin-bottom: 500px;
+  }
+  
