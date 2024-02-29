@@ -5,7 +5,8 @@ html, body {
   
   .Main {
     background-color: aliceblue;
-    height: 110vh;
+    height: 100vh;
+    padding: 100px;
   }
   
   .personalContainer {

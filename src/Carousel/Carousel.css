@@ -1,7 +1,3 @@
-html, body {
-  height: 100%;
-  margin: 0;
-}
 
 .swiper-slide {
   text-align: center;
@@ -15,9 +11,13 @@ html, body {
 }
 
 .swiper {
-  width: 100%;
+  width: 90%;
   height: 220px;
   margin: 20px auto;
+}
+
+.swiper-wrapper{
+  width: 100%;
 }
 
 .swiper-slide {
