@@ -5,8 +5,8 @@ html, body {
   
   .Main {
     background-color: aliceblue;
-    height: 100vh;
-    padding: 100px;
+    height: 100%;
+    padding: 0 100px 200px 100px;
   }
   
   .personalContainer {
@@ -14,21 +14,22 @@ html, body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 200px;
   }
   
-  .personalContainer img {
-    margin-right: 250px;
-  }
   
   .contact {
-    margin-top: 60px;
+    margin-top: 40px;
   }
   
-  .devExp {
-    margin-left: 50px;
+  .devSwiper{
+    width: 100%;
   }
-  
-  .dev {
-    margin-bottom: 500px;
+
+  .Main .personalContainer p, .Main .personalContainer a{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
   }
+
   

@@ -40,19 +40,19 @@ function MainPage() {
         <div className='personalContainer'>
             <img src={emojiImage} alt='emoji'/>
                 <div>
-                    <h1>박소현</h1>
-                    <h2>서울여자대학교</h2> 
-                    <h2>수학과/소프트웨어융합학과</h2>
+                    <p>박소현</p>
+                    <p>서울여자대학교</p> 
+                    <p>수학과/소프트웨어융합학과</p>
                     <div className='contact'>
-                        <h3>email: thgus05061@naver.com</h3>
-                    <h3>github: Sohyunnnn</h3>
+                        <p>email: thgus05061@naver.com</p>
+                        <a href='https:github.com/Sohyunnnn'>github: Sohyunnnn</a>
                     </div>
                     
                 </div> 
         </div>
             <div className='dev'>
                <h1 className='devExp'>개발 경험</h1>
-               <Carousel customClass="someClass" data={carouselData} />
+               <Carousel customClass="devSwiper" data={carouselData} />
             </div>
         
     </div>
