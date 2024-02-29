@@ -3,44 +3,33 @@
   text-align: center;
   font-size: 18px;
   background: #fff;
-  
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.swiper {
-  width: 90%;
-  height: 220px;
-  margin: 20px auto;
+.swiper-wrapper{
+  width: 110%;
 }
 
-.swiper-wrapper{
-  width: 100%;
-}
 
 .swiper-slide {
-  width: 267.831px;
   height: 200px;
   flex-shrink: 0;
-  border-radius: 21.92px;
+  border-radius: 20px;
   border: 1.223px solid #C3C3C3;
   background: #FFF;
 }
 
-.oneLineReview {
-  height: 125px;
-}
-
-.post {
-  height: 298px;
-}
-
-.post .swiper-slide {
-  height: 293.514px;
-}
 
 .hrefText {
   font-size: 25px;
 }
+
+.customSwiperSlide{
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+
+
